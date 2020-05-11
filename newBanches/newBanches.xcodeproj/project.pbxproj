@@ -16,6 +16,7 @@
 		7CE5434C24694F0A00A0621A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5434B24694F0A00A0621A /* main.m */; };
 		7CE5435624694F0A00A0621A /* newBanchesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5435524694F0A00A0621A /* newBanchesTests.m */; };
 		7CE5436124694F0A00A0621A /* newBanchesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5436024694F0A00A0621A /* newBanchesUITests.m */; };
+		7CE543702469511300A0621A /* RootTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5436F2469511300A0621A /* RootTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		7CE5435C24694F0A00A0621A /* newBanchesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = newBanchesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE5436024694F0A00A0621A /* newBanchesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = newBanchesUITests.m; sourceTree = "<group>"; };
 		7CE5436224694F0A00A0621A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CE5436E2469511300A0621A /* RootTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootTableViewCell.h; sourceTree = "<group>"; };
+		7CE5436F2469511300A0621A /* RootTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				7CE5433D24694F0900A0621A /* SceneDelegate.m */,
 				7CE5433F24694F0900A0621A /* ViewController.h */,
 				7CE5434024694F0900A0621A /* ViewController.m */,
+				7CE5436E2469511300A0621A /* RootTableViewCell.h */,
+				7CE5436F2469511300A0621A /* RootTableViewCell.m */,
 				7CE5434224694F0900A0621A /* Main.storyboard */,
 				7CE5434524694F0A00A0621A /* Assets.xcassets */,
 				7CE5434724694F0A00A0621A /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 				7CE5433B24694F0900A0621A /* AppDelegate.m in Sources */,
 				7CE5434C24694F0A00A0621A /* main.m in Sources */,
 				7CE5433E24694F0900A0621A /* SceneDelegate.m in Sources */,
+				7CE543702469511300A0621A /* RootTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
